@@ -1,0 +1,11 @@
+channels:
+ - defaults
+ - conda-forge
+dependencies:
+ - python=3.6.9
+ - pip
+ - numpy
+ - pandas
+ - scikit-image
+ - tensorflow=1.15.2
+ - keras=2.2.5

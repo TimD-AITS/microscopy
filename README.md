@@ -2,7 +2,8 @@
 Deep Learning Classification Model for Microscopy
 
 ## Image evaluation
-#####script: evaluation/evaluate_microscopy_images.py
+**script: evaluation/evaluate_microscopy_images.py**
+
 This script is a CLI which allows user to select a pre-trained model and use it to classify images. To run the script,
  follow the steps below
 
@@ -13,7 +14,7 @@ This script is a CLI which allows user to select a pre-trained model and use it 
     ```
  
 2. Download the pre-trained models and save to 'evaluation' folder
-    <br/>[provide Google Drive link to the two models]
+   <br/>[provide Google Drive link to the two models]
    
    model_AlexNet.h5 (image size = 224)
    <br/> 

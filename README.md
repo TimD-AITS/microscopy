@@ -1,5 +1,19 @@
 # microscopy
-Deep Learning Classification Model for Microscopy
+Quality Assessment and Restoration of High-Content Microscopy Images using Deep Learning
+
+## Data availabilty
+Dataset and pre-trained models can be downloaded from Google Drive
+https://drive.google.com/open?id=1fAr5SKCC1NLpz5rDr34tOqbw0-Q9DxtF
+
+pre-trained models:
+* AlexNet_224x224.h5
+* VGG16_unbalanced_224x224.h5
+* VGG16_balanced_600x600.h5
+
+datasets:
+* dataset_orig
+* dataset1 (used in training above pre-trained models)
+* autoencoder_dataset (used in training autoencoder)
 
 ## Image evaluation
 **script: evaluation/evaluate_microscopy_images.py**
